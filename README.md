@@ -28,4 +28,4 @@ drive to the store
 If you have questions about this project or any of my other work, please contact me at reed.meher@gmail.com. Check out more of my work at [archonology](https://github.com/archonology).
     
 ### License Info
-This project is covered under *GNU General Public License v3.0*. Learn more about <a href=https://www.gnu.org/licenses/gpl-3.0.en.html, target="_blank">*GNU General Public License v3.0*</a>.
+This project is covered under *GNU General Public License v3.0*. Learn more about <a href='https://www.gnu.org/licenses/gpl-3.0.en.html' target='_blank'>*GNU General Public License v3.0*</a>.
