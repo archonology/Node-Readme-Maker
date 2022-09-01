@@ -1,7 +1,6 @@
 # Water Bears
     undefined
 # Table of Contents:
-# Table of Contents:<br>
 ### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
 ### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
 ### [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)
