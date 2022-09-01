@@ -1,30 +1,31 @@
-# Goldfish
+# Water Bears
     undefined
-#Table of Contents:
-    <a href="##Description">Description<a><br>
-    <a href="##Installation">Installation<a><br>
-    <a href="##Usage Info">Usage Info<a><br>
-    <a href="##Contribution Guidelines">Constribution Guidelines<a><br>
-    <a href="##Test Instructions">Test Instructions<a><br>
-    <a href="###Questions">Questions<a><br>
-    <a href="###License Info">License Info<a><br>
-## Description
-swim in glass bowls
+# Table of Contents:<br>
+    <a href="#descript">Description<a><br>
+    <a href="#install">Installation<a><br>
+    <a href="#usage">Usage Info<a><br>
+    <a href="#contrib">Constribution Guidelines<a><br>
+    <a href="#test">Test Instructions<a><br>
+    <a href="#quests">Questions<a><br>
+    <a href="#license">License Info<a><br>
+
+## <h2 id="descript">Description</h2>
+hard to describe, they are so small.
     
-## Installation
-brought home from the pet store
+## <h2 id="install">Installation</h2>
+get a pin to put them on.
 
-## Usage Info
-and you can now watch them swim
+## <h2 id="usage">Usage Info</h2>
+try not to drop your pin.
 
-## Contribution Guidelines
-make sure to feed them every day
+## <h2 id="contrib">Constribution Guidelines</h2>
+add more Water Bears as you wish!
 
-## Test Instructions
-check the water is clean
+## <h2 id="test">Test Instructions</h2>
+See if they are there with a microscope.
 
-## Questions
+## <h2 id="quests">Questions</h2>
 add github idea, email, and GitHub link to this section. Instructions on how to reach user with additional questions.
     
-### License Info
+### <h2 id="license">License Info</h2>
 This project is covered under undefined. undefined description added here. Research license badges on github...

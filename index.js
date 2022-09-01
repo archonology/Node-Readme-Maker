@@ -58,33 +58,34 @@ inquirer
 
     const readMe = `# ${title}
     ${option}
-#Table of Contents:
-    <a href="##Description">Description<a><br>
-    <a href="##Installation">Installation<a><br>
-    <a href="##Usage Info">Usage Info<a><br>
-    <a href="##Contribution Guidelines">Constribution Guidelines<a><br>
-    <a href="##Test Instructions">Test Instructions<a><br>
-    <a href="###Questions">Questions<a><br>
-    <a href="###License Info">License Info<a><br>
-## Description
+# Table of Contents:<br>
+    <a href="#descript">Description<a><br>
+    <a href="#install">Installation<a><br>
+    <a href="#usage">Usage Info<a><br>
+    <a href="#contrib">Constribution Guidelines<a><br>
+    <a href="#test">Test Instructions<a><br>
+    <a href="#quests">Questions<a><br>
+    <a href="#license">License Info<a><br>
+
+## <h2 id="descript">Description</h2>
 ${description}
     
-## Installation
+## <h2 id="install">Installation</h2>
 ${installation}
 
-## Usage Info
+## <h2 id="usage">Usage Info</h2>
 ${usageInfo}
 
-## Contribution Guidelines
+## <h2 id="contrib">Constribution Guidelines</h2>
 ${contributions}
 
-## Test Instructions
+## <h2 id="test">Test Instructions</h2>
 ${testInstruct}
 
-## Questions
+## <h2 id="quests">Questions</h2>
 add github idea, email, and GitHub link to this section. Instructions on how to reach user with additional questions.
     
-### License Info
+### <h2 id="license">License Info</h2>
 This project is covered under ${option}. ${option} description added here. Research license badges on github...`;
 
     fs.writeFile("README.md", readMe, (err) =>
