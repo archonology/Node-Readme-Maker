@@ -1,5 +1,5 @@
 # cat
-    GNU General Public License v3.0
+    Creative Commons Zero v1.0 Universal
 ## Table of Contents:
 #### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
 #### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
@@ -10,22 +10,22 @@
 #### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)
 
 ## Description
-car
+dog
     
 ## Installation
-get
+h
 
 ## Usage Info
-dogs
+j
 
 ## Contribution Guidelines
-try
+k
 
 ## Test Instructions
-out
+s
 
 ## Questions
-add github account now, this, and GitHub link [now](https://github.com/now)  to this section. Instructions on how to reach user with additional questions.
+add github account fd, b, and GitHub link [fd](https://github.com/fd)  to this section. Instructions on how to reach user with additional questions.
     
 ### License Info
-This project is covered under GNU General Public License v3.0. Follow the link to learn more about [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+This project is covered under Creative Commons Zero v1.0 Universal. [Learn more about Creative Commons Zero v1.0 Universal here.](https://creativecommons.org/publicdomain/zero/1.0/).

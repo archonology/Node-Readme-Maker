@@ -72,9 +72,40 @@ inquirer
 if (answers.license == "GNU General Public License v3.0"){
     licenseLink = "https://www.gnu.org/licenses/gpl-3.0.en.html";
 }
-if (answers.license === "MIT License"){
-    let licenseLink = "https://opensource.org/licenses/MIT"
+if (answers.license == "MIT License"){
+   licenseLink = "https://opensource.org/licenses/MIT"
 }
+if (answers.license == "BSD 2-Clause 'Simplified' License"){
+    licenseLink = "https://opensource.org/licenses/BSD-2-Clause"
+ }
+ if (answers.license == "BSD 3-Clause 'New' or 'Revised' License"){
+    licenseLink = "https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_(%22BSD_License_2.0%22,_%22Revised_BSD_License%22,_%22New_BSD_License%22,_or_%22Modified_BSD_License%22)"
+ }
+ if (answers.license == "Boost Software License 1.0"){
+    licenseLink = "https://www.boost.org/LICENSE_1_0.txt"
+ }
+ if (answers.license == "Creative Commons Zero v1.0 Universal"){
+    licenseLink = "https://creativecommons.org/publicdomain/zero/1.0/"
+ }
+ if (answers.license == "Eclipse Public License 2.0"){
+    licenseLink = "https://www.eclipse.org/legal/epl-2.0/"
+ }
+ if (answers.license == "GNU Affero General Public License v3.0"){
+    licenseLink = "https://www.gnu.org/licenses/agpl-3.0.en.html"
+ }
+ if (answers.license == "GNU General Public License v2.0"){
+    licenseLink = "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+ }
+ if (answers.license == "GNU Lesser General Public License v2.1"){
+    licenseLink = "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html"
+ }
+ if (answers.license == "Mozilla Public License 2.0"){
+    licenseLink = "https://www.mozilla.org/en-US/MPL/2.0/"
+ }
+ if (answers.license == "The Unlicense"){
+    licenseLink = "https://unlicense.org/"
+ }
+
     const readMe = `# ${title}
     ${license}
 ## Table of Contents:
@@ -105,7 +136,7 @@ ${testInstruct}
 add github account ${gitHubName}, ${email}, and GitHub link [${gitHubName}](https://github.com/${gitHubName})  to this section. Instructions on how to reach user with additional questions.
     
 ### License Info
-This project is covered under ${license}. Follow the link to learn more about [${license}](${licenseLink}).`;
+This project is covered under ${license}. [Learn more about ${license} here.](${licenseLink}).`;
 
     fs.writeFile("README.md", readMe, (err) =>
       err ? console.log(err) : console.log("success!")
