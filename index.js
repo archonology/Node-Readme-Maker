@@ -37,12 +37,23 @@ inquirer
       name: "testInstruct",
     },
     {
+        //need to figure out how to do this options thing
       type: "options",
       message: "Almost finished! What license is your project covered under?",
       name: "license A",
       name: "license B",
-      name: "license C",
+      name: "licenseC",
     },
+    {
+        type: "input",
+        message: "What is your email address?",
+        name: "email",
+      },
+    {
+        type: "input",
+        message: "Lastly, what is your GitHub user name?",
+        name: "gitHubName",
+      },
   ])
   .then((answers) => {
     console.log(answers);
@@ -53,11 +64,13 @@ inquirer
       usageInfo,
       contributions,
       testInstruct,
-      option,
+      licenseC,
+      email,
+      gitHubName
     } = answers;
 
     const readMe = `# ${title}
-    ${option}
+    ${licenseC}
 # Table of Contents:<br>
 #### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)<br>
 #### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)<br>
@@ -83,10 +96,10 @@ ${contributions}
 ${testInstruct}
 
 ## Questions
-add github idea, email, and GitHub link to this section. Instructions on how to reach user with additional questions.
+add github account ${gitHubName}, ${email}, and GitHub link [${gitHubName}](https://github.com/${gitHubName})  to this section. Instructions on how to reach user with additional questions.
     
 ### License Info
-This project is covered under ${option}. ${option} description added here. Research license badges on github...`;
+This project is covered under ${licenseC}. ${licenseC} description added here. Research license badges on github...`;
 
     fs.writeFile("README.md", readMe, (err) =>
       err ? console.log(err) : console.log("success!")
