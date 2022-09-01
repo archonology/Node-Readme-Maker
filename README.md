@@ -2,9 +2,9 @@
     undefined
 # Table of Contents:
 # Table of Contents:<br>
-#### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)<br>
-#### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)<br>
-#### [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)<br>
+### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
+### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
+### [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)
 #### [Constribution Guidelines](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#constribution-guidelines)<br>
 #### [Test Instructions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#test-instructions)<br>
 #### [Questions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#questions)<br>
