@@ -9,23 +9,23 @@
 #### [Questions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#questions)<br>
 #### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)<br>
 
-## <h2 id="descript">Description</h2>
+## Description
 I am using node.js to generate perfect readmes to save time and have fun.
     
-## <h2 id="install">Installation</h2>
+## Installation
 you will need node.js and inquirer 8.2
 
-## <h2 id="usage">Usage Info</h2>
+## Usage Info
 run it from the index.js with node index.js in VS Code
 
-## <h2 id="contrib">Constribution Guidelines</h2>
+## Constribution Guidelines
 just let me know if you want to add something!
 
-## <h2 id="test">Test Instructions</h2>
+## Test Instructions
 not yet.
 
-## <h2 id="quests">Questions</h2>
+## Questions
 add github idea, email, and GitHub link to this section. Instructions on how to reach user with additional questions.
     
-### <h2 id="license">License Info</h2>
+### License Info
 This project is covered under undefined. undefined description added here. Research license badges on github...

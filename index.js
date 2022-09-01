@@ -67,25 +67,25 @@ inquirer
 #### [Questions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#questions)<br>
 #### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)<br>
 
-## <h2 id="descript">Description</h2>
+## Description
 ${description}
     
-## <h2 id="install">Installation</h2>
+## Installation
 ${installation}
 
-## <h2 id="usage">Usage Info</h2>
+## Usage Info
 ${usageInfo}
 
-## <h2 id="contrib">Constribution Guidelines</h2>
+## Constribution Guidelines
 ${contributions}
 
-## <h2 id="test">Test Instructions</h2>
+## Test Instructions
 ${testInstruct}
 
-## <h2 id="quests">Questions</h2>
+## Questions
 add github idea, email, and GitHub link to this section. Instructions on how to reach user with additional questions.
     
-### <h2 id="license">License Info</h2>
+### License Info
 This project is covered under ${option}. ${option} description added here. Research license badges on github...`;
 
     fs.writeFile("README.md", readMe, (err) =>
