@@ -1,5 +1,5 @@
-# new
-    Boost Software License 1.0
+# cat
+    GNU General Public License v3.0
 ## Table of Contents:
 #### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
 #### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
@@ -10,22 +10,22 @@
 #### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)
 
 ## Description
-project
+car
     
 ## Installation
-install
+get
 
 ## Usage Info
-use it
+dogs
 
 ## Contribution Guidelines
-contribute
+try
 
 ## Test Instructions
-test it
+out
 
 ## Questions
-add github account github, email, and GitHub link [github](https://github.com/github)  to this section. Instructions on how to reach user with additional questions.
+add github account now, this, and GitHub link [now](https://github.com/now)  to this section. Instructions on how to reach user with additional questions.
     
 ### License Info
-This project is covered under Boost Software License 1.0. Boost Software License 1.0 description added here. Research license badges on github...
+This project is covered under GNU General Public License v3.0. Follow the link to learn more about [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).

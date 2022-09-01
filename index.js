@@ -67,7 +67,14 @@ inquirer
       email,
       gitHubName
     } = answers;
+    var licenseLink = "";
 
+if (answers.license == "GNU General Public License v3.0"){
+    licenseLink = "https://www.gnu.org/licenses/gpl-3.0.en.html";
+}
+if (answers.license === "MIT License"){
+    let licenseLink = "https://opensource.org/licenses/MIT"
+}
     const readMe = `# ${title}
     ${license}
 ## Table of Contents:
@@ -98,7 +105,7 @@ ${testInstruct}
 add github account ${gitHubName}, ${email}, and GitHub link [${gitHubName}](https://github.com/${gitHubName})  to this section. Instructions on how to reach user with additional questions.
     
 ### License Info
-This project is covered under ${license}. ${license} description added here. Research license badges on github...`;
+This project is covered under ${license}. Follow the link to learn more about [${license}](${licenseLink}).`;
 
     fs.writeFile("README.md", readMe, (err) =>
       err ? console.log(err) : console.log("success!")
