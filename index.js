@@ -136,7 +136,7 @@ ${testInstruct}
 add github account ${gitHubName}, ${email}, and GitHub link [${gitHubName}](https://github.com/${gitHubName})  to this section. Instructions on how to reach user with additional questions.
     
 ### License Info
-This project is covered under ${license}. [Learn more about ${license} here.](${licenseLink}).`;
+This project is covered under ${license}. Learn more about [${license}](${licenseLink})`;
 
     fs.writeFile("README.md", readMe, (err) =>
       err ? console.log(err) : console.log("success!")

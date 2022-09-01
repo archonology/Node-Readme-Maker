@@ -1,5 +1,5 @@
-# cat
-    Creative Commons Zero v1.0 Universal
+# New Project
+    Eclipse Public License 2.0
 ## Table of Contents:
 #### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
 #### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
@@ -10,22 +10,22 @@
 #### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)
 
 ## Description
-dog
+it's a real new project for sure.
     
 ## Installation
-h
+you just pop it in the cd rom drive
 
 ## Usage Info
-j
+press play on the cassette deck
 
 ## Contribution Guidelines
-k
+you can use a sharpie on the the tape.
 
 ## Test Instructions
-s
+don't lose it, it is a bootleg, limited release.
 
 ## Questions
-add github account fd, b, and GitHub link [fd](https://github.com/fd)  to this section. Instructions on how to reach user with additional questions.
+add github account archonology, reed.meher@gmail.com, and GitHub link [archonology](https://github.com/archonology)  to this section. Instructions on how to reach user with additional questions.
     
 ### License Info
-This project is covered under Creative Commons Zero v1.0 Universal. [Learn more about Creative Commons Zero v1.0 Universal here.](https://creativecommons.org/publicdomain/zero/1.0/).
+This project is covered under Eclipse Public License 2.0. Learn more about [Eclipse Public License 2.0](https://www.eclipse.org/legal/epl-2.0/)
