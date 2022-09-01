@@ -1,5 +1,5 @@
-# New Project
-    Eclipse Public License 2.0
+# test project
+    The Unlicense
 ## Table of Contents:
 #### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
 #### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
@@ -10,22 +10,22 @@
 #### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)
 
 ## Description
-it's a real new project for sure.
+learn about the project here.
     
 ## Installation
-you just pop it in the cd rom drive
+install a few things to your computer
 
 ## Usage Info
-press play on the cassette deck
+use it to make a readme
 
 ## Contribution Guidelines
-you can use a sharpie on the the tape.
+let me know!
 
 ## Test Instructions
-don't lose it, it is a bootleg, limited release.
+not yet
 
 ## Questions
-add github account archonology, reed.meher@gmail.com, and GitHub link [archonology](https://github.com/archonology)  to this section. Instructions on how to reach user with additional questions.
+If you have questions about this project or any of my other work, please contact me at reed.meher@gmail.com. Check out more of my work at [archonology](https://github.com/archonology).
     
 ### License Info
-This project is covered under Eclipse Public License 2.0. Learn more about [Eclipse Public License 2.0](https://www.eclipse.org/legal/epl-2.0/)
+This project is covered under The Unlicense. Learn more about [The Unlicense](https://unlicense.org/)

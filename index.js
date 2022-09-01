@@ -133,7 +133,7 @@ ${contributions}
 ${testInstruct}
 
 ## Questions
-add github account ${gitHubName}, ${email}, and GitHub link [${gitHubName}](https://github.com/${gitHubName})  to this section. Instructions on how to reach user with additional questions.
+If you have questions about this project or any of my other work, please contact me at ${email}. Check out more of my work at [${gitHubName}](https://github.com/${gitHubName}).
     
 ### License Info
 This project is covered under ${license}. Learn more about [${license}](${licenseLink})`;
