@@ -136,7 +136,7 @@ ${testInstruct}
 If you have questions about this project or any of my other work, please contact me at ${email}. Check out more of my work at [${gitHubName}](https://github.com/${gitHubName}).
     
 ### License Info
-This project is covered under ${license}. Learn more about [${license}](${licenseLink})`;
+This project is covered under *${license}*. Learn more about <a href=${licenseLink} target="_blank">*${license}*</a>.`;
 
     fs.writeFile("README.md", readMe, (err) =>
       err ? console.log(err) : console.log("success!")
