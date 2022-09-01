@@ -12,7 +12,7 @@
 ## <h2 id="descript">Description</h2>
 I am using node.js to generate perfect readmes to save time and have fun.
     
-## <h2 id="install">Installation</h2>
+## Installation
 you will need node.js and inquirer 8.2
 
 ## <h2 id="usage">Usage Info</h2>
