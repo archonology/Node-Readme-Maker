@@ -59,13 +59,13 @@ inquirer
     const readMe = `# ${title}
     ${option}
 #Table of Contents:
-    <a href="##Description">Description<a>
-    <a href="##Installation">Installation<a>
-    <a href="##Usage Info">Usage Info<a>
-    <a href="##Contribution Guidelines">Constribution Guidelines<a>
-    <a href="##Test Instructions">Test Instructions<a>
-    <a href="###Questions">Questions<a>
-    <a href="###License Info">License Info<a>
+    <a href="##Description">Description<a><br>
+    <a href="##Installation">Installation<a><br>
+    <a href="##Usage Info">Usage Info<a><br>
+    <a href="##Contribution Guidelines">Constribution Guidelines<a><br>
+    <a href="##Test Instructions">Test Instructions<a><br>
+    <a href="###Questions">Questions<a><br>
+    <a href="###License Info">License Info<a><br>
 ## Description
 ${description}
     
