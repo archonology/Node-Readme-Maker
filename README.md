@@ -1,13 +1,13 @@
 # Water Bears
     undefined
-# Table of Contents:<br>
-    <a href="#descript">Description<a><br>
-    <a href="#install">Installation<a><br>
-    <a href="#usage">Usage Info<a><br>
-    <a href="#contrib">Constribution Guidelines<a><br>
-    <a href="#test">Test Instructions<a><br>
-    <a href="#quests">Questions<a><br>
-    <a href="#license">License Info<a><br>
+# Table of Contents:
+    <a href="#descript">Description</a><br>
+    <a href="#install">Installation</a><br>
+    <a href="#usage">Usage Info</a><br>
+    <a href="#contrib">Constribution Guidelines</a><br>
+    <a href="#test">Test Instructions</a><br>
+    <a href="#quests">Questions</a><br>
+    <a href="#license">License Info</a><br>
 
 ## <h2 id="descript">Description</h2>
 hard to describe, they are so small.
