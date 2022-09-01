@@ -1,31 +1,31 @@
-# Clue
-    Hasbro, maybe.
-# Table of Contents:<br>
-#### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)<br>
-#### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)<br>
-#### [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)<br>
-#### [Constribution Guidelines](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#constribution-guidelines)<br>
-#### [Test Instructions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#test-instructions)<br>
-#### [Questions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#questions)<br>
-#### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)<br>
+# new
+    Boost Software License 1.0
+## Table of Contents:
+#### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
+#### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
+#### [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)
+#### [Constribution Guidelines](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#constribution-guidelines)
+#### [Test Instructions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#test-instructions)
+#### [Questions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#questions)
+#### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)
 
 ## Description
-someone has been KILLED! Find the murderer with your friends.
+project
     
 ## Installation
-buy the board game and crack it open.
+install
 
 ## Usage Info
-poor some shots for you and your friends and get busy!
+use it
 
-## Constribution Guidelines
-investigate thoroughly before you make your big accusations, friend.
+## Contribution Guidelines
+contribute
 
 ## Test Instructions
-don't test out the murder weapons on your party.
+test it
 
 ## Questions
-add github account archonology, reed.meher@gmail.com, and GitHub link [archonology](https://github.com/archonology)  to this section. Instructions on how to reach user with additional questions.
+add github account github, email, and GitHub link [github](https://github.com/github)  to this section. Instructions on how to reach user with additional questions.
     
 ### License Info
-This project is covered under Hasbro, maybe.. Hasbro, maybe. description added here. Research license badges on github...
+This project is covered under Boost Software License 1.0. Boost Software License 1.0 description added here. Research license badges on github...

@@ -38,11 +38,10 @@ inquirer
     },
     {
         //need to figure out how to do this options thing
-      type: "options",
+      type: "list",
+      name: "license",
       message: "Almost finished! What license is your project covered under?",
-      name: "license A",
-      name: "license B",
-      name: "licenseC",
+      choices: ["GNU General Public License v3.0", "MIT License", "BSD 2-Clause 'Simplified' License", "BSD 3-Clause 'New' or 'Revised' License", "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1", "Mozilla Public License 2.0", "The Unlicense"]
     },
     {
         type: "input",
@@ -64,21 +63,21 @@ inquirer
       usageInfo,
       contributions,
       testInstruct,
-      licenseC,
+      license,
       email,
       gitHubName
     } = answers;
 
     const readMe = `# ${title}
-    ${licenseC}
-# Table of Contents:<br>
-#### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)<br>
-#### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)<br>
-#### [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)<br>
-#### [Constribution Guidelines](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#constribution-guidelines)<br>
-#### [Test Instructions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#test-instructions)<br>
-#### [Questions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#questions)<br>
-#### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)<br>
+    ${license}
+## Table of Contents:
+#### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
+#### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
+#### [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)
+#### [Constribution Guidelines](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#constribution-guidelines)
+#### [Test Instructions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#test-instructions)
+#### [Questions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#questions)
+#### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)
 
 ## Description
 ${description}
@@ -89,7 +88,7 @@ ${installation}
 ## Usage Info
 ${usageInfo}
 
-## Constribution Guidelines
+## Contribution Guidelines
 ${contributions}
 
 ## Test Instructions
@@ -99,7 +98,7 @@ ${testInstruct}
 add github account ${gitHubName}, ${email}, and GitHub link [${gitHubName}](https://github.com/${gitHubName})  to this section. Instructions on how to reach user with additional questions.
     
 ### License Info
-This project is covered under ${licenseC}. ${licenseC} description added here. Research license badges on github...`;
+This project is covered under ${license}. ${license} description added here. Research license badges on github...`;
 
     fs.writeFile("README.md", readMe, (err) =>
       err ? console.log(err) : console.log("success!")
@@ -108,3 +107,18 @@ This project is covered under ${licenseC}. ${licenseC} description added here. R
 
 //readme formatting docs from github:
   //https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+
+  // license list: Apache License 2.0
+// GNU General Public License v3.0
+// MIT License
+// BSD 2-Clause "Simplified" License
+// BSD 3-Clause "New" or "Revised" License
+// Boost Software License 1.0
+// Creative Commons Zero v1.0 Universal
+// Eclipse Public License 2.0
+// GNU Affero General Public License v3.0
+// GNU General Public License v2.0
+// GNU Lesser General Public License v2.1
+// Mozilla Public License 2.0
+// The Unlicense
