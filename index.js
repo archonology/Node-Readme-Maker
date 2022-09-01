@@ -59,13 +59,13 @@ inquirer
     const readMe = `# ${title}
     ${option}
 # Table of Contents:<br>
-    <a href="#descript">Description</a><br>
-    <a href="#install">Installation</a><br>
-    <a href="#usage">Usage Info</a><br>
-    <a href="#contrib">Constribution Guidelines</a><br>
-    <a href="#test">Test Instructions</a><br>
-    <a href="#quests">Questions</a><br>
-    <a href="#license">License Info</a><br>
+#### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)<br>
+#### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)<br>
+#### [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)<br>
+#### [Constribution Guidelines](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#constribution-guidelines)<br>
+#### [Test Instructions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#test-instructions)<br>
+#### [Questions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#questions)<br>
+#### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)<br>
 
 ## <h2 id="descript">Description</h2>
 ${description}
@@ -92,3 +92,6 @@ This project is covered under ${option}. ${option} description added here. Resea
       err ? console.log(err) : console.log("success!")
     );
   });
+
+//readme formatting docs from github:
+  //https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax

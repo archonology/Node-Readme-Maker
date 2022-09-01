@@ -1,28 +1,28 @@
-# Water Bears
+# Perfect Readme
     undefined
-# Table of Contents:
-###     1. [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
-###     2. [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
-###     3. [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)
+# Table of Contents:<br>
+#### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)<br>
+#### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)<br>
+#### [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)<br>
 #### [Constribution Guidelines](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#constribution-guidelines)<br>
 #### [Test Instructions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#test-instructions)<br>
 #### [Questions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#questions)<br>
 #### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)<br>
 
 ## <h2 id="descript">Description</h2>
-hard to describe, they are so small.
+I am using node.js to generate perfect readmes to save time and have fun.
     
 ## <h2 id="install">Installation</h2>
-get a pin to put them on.
+you will need node.js and inquirer 8.2
 
 ## <h2 id="usage">Usage Info</h2>
-try not to drop your pin.
+run it from the index.js with node index.js in VS Code
 
 ## <h2 id="contrib">Constribution Guidelines</h2>
-add more Water Bears as you wish!
+just let me know if you want to add something!
 
 ## <h2 id="test">Test Instructions</h2>
-See if they are there with a microscope.
+not yet.
 
 ## <h2 id="quests">Questions</h2>
 add github idea, email, and GitHub link to this section. Instructions on how to reach user with additional questions.
