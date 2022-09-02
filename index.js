@@ -133,7 +133,7 @@ ${contributions}
 ${testInstruct}
 
 ## Questions
-If you have questions about this project or any of my other work, please contact me at ${email}. Check out more of my work at [${gitHubName}](https://github.com/${gitHubName}).
+If you have questions about this project or any of my other work, please contact me at ${email}. Check out more of my work on Github at [${gitHubName}](https://github.com/${gitHubName}).
     
 ### License Info
 This project is covered under *${license}*. Follow the link to learn more about <a href="${licenseLink}" target="_blank">*${license}*</a>.`;
@@ -145,18 +145,3 @@ This project is covered under *${license}*. Follow the link to learn more about 
 
 //readme formatting docs from github:
   //https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
-
-  // license list: Apache License 2.0
-// GNU General Public License v3.0
-// MIT License
-// BSD 2-Clause "Simplified" License
-// BSD 3-Clause "New" or "Revised" License
-// Boost Software License 1.0
-// Creative Commons Zero v1.0 Universal
-// Eclipse Public License 2.0
-// GNU Affero General Public License v3.0
-// GNU General Public License v2.0
-// GNU Lesser General Public License v2.1
-// Mozilla Public License 2.0
-// The Unlicense

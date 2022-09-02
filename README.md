@@ -1,5 +1,5 @@
-# new project
-    GNU General Public License v3.0
+# Pro README Generator
+    Mozilla Public License 2.0
 ## Table of Contents:
 #### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
 #### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
@@ -10,22 +10,22 @@
 #### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)
 
 ## Description
-a new project to test
+I wanted a cool way to generate README files for projects because they are very important, and it takes a long time to format them. With a nice README generator like this one I made, making a pro README is super easy and fun!
     
 ## Installation
-install some things
+To install this project, you will need a package.json and inquierer (version 8.2.0) to run the script. That means you will need VS Code, too, or a similar software with access to your computer's command line.
 
 ## Usage Info
-use for fun
+run the program with `node index.js` from the project folder in your command line. You will then be prompted to answers all the questions needed to generate your pro README file.
 
 ## Contribution Guidelines
-add what you like
+No specific guidelines to contributing, but if you are intereseted in adding some code to this project, please reach out via email! My contact info is listed below.
 
 ## Test Instructions
-drive to the store
+I have not developed a test for this project at this time. 
 
 ## Questions
-If you have questions about this project or any of my other work, please contact me at reed.meher@gmail.com. Check out more of my work at [archonology](https://github.com/archonology).
+If you have questions about this project or any of my other work, please contact me at reed.meher@gmail.com. Check out more of my work on Github at [Archonology](https://github.com/Archonology).
     
 ### License Info
-This project is covered under *GNU General Public License v3.0*. Learn more about <a href='https://www.gnu.org/licenses/gpl-3.0.en.html' target='_blank'>*GNU General Public License v3.0*</a>.
+This project is covered under *Mozilla Public License 2.0*. Follow the link to learn more about <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank">*Mozilla Public License 2.0*</a>.
