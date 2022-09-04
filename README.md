@@ -1,5 +1,7 @@
 # Pro README Generator
     Mozilla Public License 2.0
+    Deployed link: *Not Deployed*
+    Repo link: https://github.com/archonology/Pro-Readme-Generator
 ## Table of Contents:
 #### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
 #### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
@@ -11,6 +13,8 @@
 
 ## Description
 I wanted a cool way to generate README files for projects because they are very important, and it takes a long time to format them. With a nice README generator like this one I made, making a pro README is super easy and fun!
+
+*Please note, this project is not deployed because it is not a browser-based project. it is for use only in your code editing. *
     
 ## Installation
 To install this project, you will need a package.json and inquierer (version 8.2.0) to run the script. That means you will need VS Code, too, or a similar software with access to your computer's command line.
