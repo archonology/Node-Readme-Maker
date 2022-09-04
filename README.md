@@ -6,6 +6,7 @@
 #### [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)
 #### [Constribution Guidelines](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#constribution-guidelines)
 #### [Test Instructions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#test-instructions)
+#### [Demo](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#demo)
 #### [Questions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#questions)
 #### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)
 
@@ -24,10 +25,10 @@ No specific guidelines to contributing, but if you are intereseted in adding som
 ## Test Instructions
 I have not developed a test for this project at this time. 
 
-## Demo Video for project functionality
-<figure class="video_container">
-  <iframe src="[https://www.youtube.com/embed/enMumwvLAug](https://youtu.be/zxMYSF9wNp0)" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+## Demo
+[Click here for demo video of functionality](https://youtu.be/zxMYSF9wNp0)
+
+![project Screenshot](https://user-images.githubusercontent.com/107374664/188333571-68d470e6-00bd-40af-af09-e0e1f414d9b7.png)
 
 ## Questions
 If you have questions about this project or any of my other work, please contact me at reed.meher@gmail.com. Check out more of my work on Github at [Archonology](https://github.com/Archonology).
