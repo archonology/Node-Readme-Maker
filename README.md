@@ -11,13 +11,15 @@
 #### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)
 
 ## Description
-I wanted a cool way to generate README files for projects because they are very important, and it takes a long time to format them. With a nice README generator like this one I made, making a pro README is super easy and fun!
+I wanted a cool way to generate README files for projects because they are very important, and it takes a long time to format them. With a nice README generator like this one I made, making a pro README is super easy and fun! I even used it to make this very README.
     
 ## Installation
 To install this project, you will need a package.json and inquierer (version 8.2.0) to run the script. That means you will need VS Code, too, or a similar software with access to your computer's command line.
 
 ## Usage Info
-run the program with `node index.js` from the project folder in your command line. You will then be prompted to answers all the questions needed to generate your pro README file.
+run the program with `node index.js` from the project folder in your command line. You will then be prompted to answers all the questions needed to generate your pro README file. 
+
+You will also be prompted to scroll through the standard list of GitHub licenses (the same ones you can pick from when you create a new repo in GitHub), and whichever one you pick, it will come formatted with a link to that license's source page from the license Info section of the README. That makes it easy for you and people checking out your project to learn about the license from the source.  
 
 ## Contribution Guidelines
 No specific guidelines to contributing, but if you are intereseted in adding some code to this project, please reach out via email! My contact info is listed below.
