@@ -17,7 +17,13 @@ inquirer
     },
     {
       type: "input",
-      message: "Great title! Next, please descibe your project.",
+      message:
+        "Nice. Please paste the link for the video tutorial, if you have one.",
+      name: "videoLink",
+    },
+    {
+      type: "input",
+      message: "This project sounds boss! Please describe it for me.",
       name: "description",
     },
     {
@@ -65,6 +71,7 @@ inquirer
     const {
       title,
       projectLink,
+      videoLink,
       description,
       installation,
       usageInfo,
@@ -116,7 +123,8 @@ if (answers.license == "BSD 2-Clause 'Simplified' License"){
     const readMe = `# ${title}
     ${license}
 ## Links
-[Click here to visit the project repo](https://github.com/archonology/${projectLink})    
+[Click here to visit this project's repository](https://github.com/archonology/${projectLink})
+[Click here to watch a video tutorial on Youtube](${videoLink})    
 ## Table of Contents:
 #### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
 #### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
