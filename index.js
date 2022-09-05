@@ -6,8 +6,14 @@ inquirer
     {
       type: "input",
       message:
-        "Hello! I see you would like to make a new README. What is the title of your new project?",
+        "Hello! I see you would like to make a new README. What is the title of your README?",
       name: "title",
+    },
+    {
+      type: "input",
+      message:
+        "Now what is the exact title of the REPO for your project?",
+      name: "projectLink",
     },
     {
       type: "input",
@@ -17,13 +23,13 @@ inquirer
     {
       type: "input",
       message:
-        "Wow, sounds interesting! Now tell me about any installation instructions for your project.",
+        "Wow, sounds interesting! Can you tell me about any installation instructions for your project?",
       name: "installation",
     },
     {
       type: "input",
       message:
-        "Your doing great! Now tell me about any usage information we should have.",
+        "I see. Is there any usage information we should have?",
       name: "usageInfo",
     },
     {
@@ -40,12 +46,12 @@ inquirer
         //need to figure out how to do this options thing
       type: "list",
       name: "license",
-      message: "Almost finished! What license is your project covered under?",
+      message: "Almost finished! What license is your project covered under? Select an option below.",
       choices: ["GNU General Public License v3.0", "MIT License", "BSD 2-Clause 'Simplified' License", "BSD 3-Clause 'New' or 'Revised' License", "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1", "Mozilla Public License 2.0", "The Unlicense"]
     },
     {
         type: "input",
-        message: "What is your email address?",
+        message: "Cool. Now, what is your email address?",
         name: "email",
       },
     {
@@ -58,6 +64,7 @@ inquirer
     console.log(answers);
     const {
       title,
+      projectLink,
       description,
       installation,
       usageInfo,
@@ -108,6 +115,8 @@ if (answers.license == "BSD 2-Clause 'Simplified' License"){
 
     const readMe = `# ${title}
     ${license}
+## Links
+[Click here to visit the project repo](https://github.com/archonology/${projectLink})    
 ## Table of Contents:
 #### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
 #### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
@@ -139,7 +148,7 @@ If you have questions about this project or any of my other work, please contact
 This project is covered under *${license}*. Follow the link to learn more about <a href="${licenseLink}" target="_blank">*${license}*</a>.`;
 
     fs.writeFile("README.md", readMe, (err) =>
-      err ? console.log(err) : console.log("success!")
+      err ? console.log(err) : console.log("Success! Your README has been generated. Have a great day!")
     );
   });
 
