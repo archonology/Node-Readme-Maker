@@ -1,8 +1,8 @@
-# new readme
-    Eclipse Public License 2.0
+# readme
+    The Unlicense
 ## Links
-[Click here to visit this project's repository](https://github.com/archonology/Pro-Readme-Generator)
-[Click here to watch a video tutorial on Youtube](https://github.com/archonology/https://youtu.be/zxMYSF9wNp0)    
+[Click here to visit this project's repository](https://github.com/archonology/link)<br>
+[Click here to watch a video tutorial on Youtube](link)    
 ## Table of Contents:
 #### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
 #### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
@@ -13,22 +13,22 @@
 #### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)
 
 ## Description
-it is a new project
+describe the project
     
 ## Installation
-you just install
+install
 
 ## Usage Info
-use it wisely
+usage
 
 ## Contribution Guidelines
-contact me via email, see below
+contribute
 
 ## Test Instructions
-not at this time
+test
 
 ## Questions
-If you have questions about this project or any of my other work, please contact me at reed.meher@gmail.com. Check out more of my work on Github at [Archonology](https://github.com/Archonology).
+If you have questions about this project or any of my other work, please contact me at email. Check out more of my work on Github at [user id](https://github.com/user id).
     
-### License Info
-This project is covered under *Eclipse Public License 2.0*. Follow the link to learn more about <a href="https://www.eclipse.org/legal/epl-2.0/" target="_blank">*Eclipse Public License 2.0*</a>.
+## License Info
+This project is covered under **The Unlicense**. Follow the link to learn more about <a href="https://unlicense.org/" target="_blank">*The Unlicense*</a>.

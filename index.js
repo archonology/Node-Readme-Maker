@@ -123,7 +123,7 @@ if (answers.license == "BSD 2-Clause 'Simplified' License"){
     const readMe = `# ${title}
     ${license}
 ## Links
-[Click here to visit this project's repository](https://github.com/archonology/${projectLink})
+[Click here to visit this project's repository](https://github.com/archonology/${projectLink})<br>
 [Click here to watch a video tutorial on Youtube](${videoLink})    
 ## Table of Contents:
 #### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
@@ -152,8 +152,8 @@ ${testInstruct}
 ## Questions
 If you have questions about this project or any of my other work, please contact me at ${email}. Check out more of my work on Github at [${gitHubName}](https://github.com/${gitHubName}).
     
-### License Info
-This project is covered under *${license}*. Follow the link to learn more about <a href="${licenseLink}" target="_blank">*${license}*</a>.`;
+## License Info
+This project is covered under **${license}**. Follow the link to learn more about <a href="${licenseLink}" target="_blank">*${license}*</a>.`;
 
     fs.writeFile("README.md", readMe, (err) =>
       err ? console.log(err) : console.log("Success! Your README has been generated. Have a great day!")
