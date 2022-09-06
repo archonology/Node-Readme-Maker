@@ -38,4 +38,8 @@ No testing framework in place at this time.
 If you have questions about this project or any of my other work, please contact me at reed.meher@gmail.com. Check out more of my work on Github at [Archonology](https://github.com/Archonology).
     
 ## License Info
-This project is covered under **Mozilla Public License 2.0**. MPL is a copyleft license that is easy to comply with. You must make the source code for any of your changes available under MPL, but you can combine the MPL software with proprietary code, as long as you keep the MPL code in separate files. Version 2.0 is, by default, compatible with LGPL and GPL version 2 or greater. You can distribute binaries under a proprietary license, as long as you make the source available under MPL. to learn more, click the badge: [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+This project is covered under **Mozilla Public License 2.0**.
+<br>
+MPL is a copyleft license that is easy to comply with. You must make the source code for any of your changes available under MPL, but you can combine the MPL software with proprietary code, as long as you keep the MPL code in separate files. Version 2.0 is, by default, compatible with LGPL and GPL version 2 or greater. You can distribute binaries under a proprietary license, as long as you make the source available under MPL. 
+<br>
+To learn more, click the badge: [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
