@@ -216,7 +216,7 @@ This project is covered under **${license}**.
 To learn more, click the badge: ${licenseLink}"`;
 
     //writes the readme file and notifies user whether it was successful or not
-    fs.writeFile("README.md", readMe, (err) =>
+    fs.writeFile("README2.md", readMe, (err) =>
       err
         ? console.log(err)
         : console.log(

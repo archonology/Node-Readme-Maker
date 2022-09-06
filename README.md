@@ -2,7 +2,7 @@
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 ## Links
 [Click here to visit this project's repository](https://github.com/archonology/Pro-Readme-Generator)<br>
-[Click here to watch a video tutorial on Youtube](https://youtu.be/qcAhijXro-Q)
+[Click here to watch a video tutorial on Youtube](https://youtu.be/h-yPOWgpN_w)
 ## Screenshot of project
 ![Project Screenshot](https://user-images.githubusercontent.com/107374664/188484514-3bf53e82-82cf-406e-922b-66233909bb93.png)
 
