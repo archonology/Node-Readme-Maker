@@ -1,5 +1,5 @@
 # Pro README Generator
-    [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 ## Links
 [Click here to visit this project's repository](https://github.com/archonology/Pro-Readme-Generator)<br>
 [Click here to watch a video tutorial on Youtube](https://youtu.be/qcAhijXro-Q)
