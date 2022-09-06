@@ -38,4 +38,5 @@ No testing framework in place at this time.
 If you have questions about this project or any of my other work, please contact me at reed.meher@gmail.com. Check out more of my work on Github at [Archonology](https://github.com/Archonology).
     
 ## License Info
-This project is covered under **Mozilla Public License 2.0**. (https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+This project is covered under **Mozilla Public License 2.0**.
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
