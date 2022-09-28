@@ -8,12 +8,12 @@
 
 ## Table of Contents:
 #### [Description](#description)
-#### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
-#### [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)
-#### [Constribution Guidelines](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#constribution-guidelines)
-#### [Test Instructions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#test-instructions)
-#### [Questions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#questions)
-#### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)
+#### [Installation](#installation)
+#### [Usage Info](#usage-info)
+#### [Constribution Guidelines](#constribution-guidelines)
+#### [Test Instructions](#test-instructions)
+#### [Questions](#questions)
+#### [License Info](#license-info)
 
 ## Description
 An excellent README is essential for repository, but formatting a top-notch README can take away valuable time from coding new projects.  That's why I made this handy README generator: it allows you to put in all the info you need for a great README right from your command line. Then the program will generate a properly formatted README with all the essentials.  
