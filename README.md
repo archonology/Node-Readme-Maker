@@ -7,7 +7,7 @@
 ![Project Screenshot](https://user-images.githubusercontent.com/107374664/188484514-3bf53e82-82cf-406e-922b-66233909bb93.png)
 
 ## Table of Contents:
-#### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
+#### [Description](#description)
 #### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
 #### [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)
 #### [Constribution Guidelines](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#constribution-guidelines)
