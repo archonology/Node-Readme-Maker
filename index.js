@@ -12,11 +12,6 @@ inquirer
     },
     {
       type: "input",
-      message: "Now what is the exact title of the REPO for your project?",
-      name: "projectLink",
-    },
-    {
-      type: "input",
       message:
         "Nice. Please paste the link for the video tutorial, if you have one.",
       name: "videoLink",
@@ -176,10 +171,9 @@ inquirer
         "This is free and unencumbered software released into the public domain. <br> Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.";
     }
     //Template Literal that get's printed with user's answers
-    const readMe = `# ${title}
-    ${licenseLink}
+const readMe = `# ${title}
+${licenseLink}
 ## Links
-[Click here to visit this project's repository](https://github.com/archonology/${projectLink})<br>
 [Click here to watch a video tutorial on Youtube](${videoLink})    
 ## Table of Contents:
 #### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
@@ -213,10 +207,10 @@ This project is covered under **${license}**.
 <br>
 *${licenseSummary}* 
 <br>
-To learn more, click the badge: ${licenseLink}"`;
+To learn more, click the badge: ${licenseLink}`;
 
     //writes the readme file and notifies user whether it was successful or not
-    fs.writeFile("README2.md", readMe, (err) =>
+    fs.writeFile("./dist/README.md", readMe, (err) =>
       err
         ? console.log(err)
         : console.log(
@@ -224,6 +218,3 @@ To learn more, click the badge: ${licenseLink}"`;
           )
     );
   });
-
-//link to my video tutorial
-//https://youtu.be/qcAhijXro-Q
