@@ -1,27 +1,27 @@
-# Employee Library
+# eCommerce Back End
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Links
-[Click here to watch a video tutorial on Youtube](https://youtu.be/r-aP_ufH47U)    
+[Click here to watch a video tutorial on Youtube](@youtube)    
 ## Table of Contents:
-#### [Description](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#description)
-#### [Installation](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#installation)
-#### [Usage Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#usage-info)
-#### [Constribution Guidelines](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#constribution-guidelines)
-#### [Test Instructions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#test-instructions)
-#### [Questions](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#questions)
-#### [License Info](https://github.com/archonology/Pro-Readme-Generator/blob/main/README.md#license-info)
+#### [Description](#description)
+#### [Installation](#installation)
+#### [Usage Info](#usage-info)
+#### [#constribution-guidelines)
+#### [#test-instructions)
+#### [#questions)
+#### [License Info](#license-info)
 
 ## Description
-This program allows the user to seed and administer a n employee library. Department, role, and employees can be tracked, added, deleted, and updated.  It is useful to be able to administer large databases that are interconnected via a simple program. 
+Being able to manage databases for eCommerce is complicated and needs well written code and logical data-handling. This project addresses the essential needs of managing categories of products, products, and tag words that will make it easier for a shopper to find what they are looking for. This is a purely back end exercise, so please check out the video linked above to see how the application functions.  With this application, a user is able to create, read, update, and delete products, categories, and product tags.  
     
 ## Installation
-This program is run through Node.js in the terminal. Dependencies you will need include: Dotenv, Express, MySQL, Inquirer, and  Console.table. 
+To run this application, you will need to download the following dependencies: `dotenv` v.8.2.0, `express` v.4.17, `mysql` v.2.1.0, and `sequelize` v. 5.21.7.
 
 ## Usage Info
-Please watch the demo video for more insight into usage of the program. Type `npm start` to run the program from the command line in the root file, `index.js`.
+Through the set up in the package.json, you can run the test data via the command line with `npm run seed` and activate the Port via `node server.js`. Make sure that you initiate the proper database in mySQL by logging in and running the schema file(see my demo video to see how it is done if you aren't sure). That said, make sure you have Node.js and mySQL installed on your computer before attempting to run this application.  
 
 ## Contribution Guidelines
-Please contact me if you would like to contribute.
+Please reach out if you would like to contribute!
 
 ## Test Instructions
 Not at this time.

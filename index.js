@@ -174,14 +174,16 @@ inquirer
 const readMe = `# ${title}
 ${licenseLink}
 ## Links
-[Click here to watch a video tutorial on Youtube](${videoLink})    
+[Click here to watch a video tutorial on Youtube](${videoLink})
+## Screenshot
+![]()    
 ## Table of Contents:
 #### [Description](#description)
 #### [Installation](#installation)
 #### [Usage Info](#usage-info)
-#### [#constribution-guidelines)
-#### [#test-instructions)
-#### [#questions)
+#### [Contribution Guidelines](#contribution-guidelines)
+#### [Test Instructions](#test-instructions)
+#### [Questions](#questions)
 #### [License Info](#license-info)
 
 ## Description
