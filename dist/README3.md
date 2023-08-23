@@ -1,35 +1,8 @@
-const fs = require("fs");
-const inquirer = require("inquirer");
-const questions = require("./scripts/questions");
-const licenses = require("./scripts/licenses");
-let licenseTitle = "";
-let licenseLink = "";
-let licenseSummary = "";
+# c
 
-inquirer
-  .prompt(questions)
-  .then((response) => {
-    console.log(response);
-    const {
-      title,
-      summary,
-      about,
-      li,
-    } = response;
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    for (let license of licenses) {
-      if (license.title === li) {
-        licenseTitle = license.title;
-        licenseLink = license.link;
-        licenseSummary = license.sum;
-      }
-    }
-
-    const readMe = `# ${title}
-
-${licenseLink}
-
-${summary}
+c
 
 **By [Reed Meher](https://www.meherdevs.com)**
 
@@ -44,7 +17,7 @@ ${summary}
 
 ## About
 
-${about}
+c
 
 ![App screenshot]()
  
@@ -81,22 +54,9 @@ Please reach out if you hit any snags, have questions, or come up with some help
     
 ## License Info
 
-${licenseLink}
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project is covered under **${licenseTitle}**.
+This project is covered under **MIT License**.
 
-*${licenseSummary}* 
+*A short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source.  There are many variations of this license in use.* 
 
-`;
-
-    fs.writeFile("./dist/README.md", readMe, (err) =>
-      err
-        ? console.log(err)
-        : console.log(
-          `Success! Your README.md has been generated. 
-          Please retrieve it from the dist folder and thank you 
-          for using Node README Maker by Reed Meher, 2023 
-          https://www.meherdevs.com`
-        )
-    );
-  });

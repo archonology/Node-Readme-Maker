@@ -1,35 +1,8 @@
-const fs = require("fs");
-const inquirer = require("inquirer");
-const questions = require("./scripts/questions");
-const licenses = require("./scripts/licenses");
-let licenseTitle = "";
-let licenseLink = "";
-let licenseSummary = "";
+# TREKKERZ
 
-inquirer
-  .prompt(questions)
-  .then((response) => {
-    console.log(response);
-    const {
-      title,
-      summary,
-      about,
-      li,
-    } = response;
 
-    for (let license of licenses) {
-      if (license.title === li) {
-        licenseTitle = license.title;
-        licenseLink = license.link;
-        licenseSummary = license.sum;
-      }
-    }
 
-    const readMe = `# ${title}
-
-${licenseLink}
-
-${summary}
+Finally a way to skate across time and space.
 
 **By [Reed Meher](https://www.meherdevs.com)**
 
@@ -44,7 +17,7 @@ ${summary}
 
 ## About
 
-${about}
+For years we have been looking for a time travel solution. Now it's here for good.
 
 ![App screenshot]()
  
@@ -81,22 +54,9 @@ Please reach out if you hit any snags, have questions, or come up with some help
     
 ## License Info
 
-${licenseLink}
 
-This project is covered under **${licenseTitle}**.
 
-*${licenseSummary}* 
+This project is covered under ****.
 
-`;
+** 
 
-    fs.writeFile("./dist/README.md", readMe, (err) =>
-      err
-        ? console.log(err)
-        : console.log(
-          `Success! Your README.md has been generated. 
-          Please retrieve it from the dist folder and thank you 
-          for using Node README Maker by Reed Meher, 2023 
-          https://www.meherdevs.com`
-        )
-    );
-  });

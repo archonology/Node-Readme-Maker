@@ -30,7 +30,7 @@ const questions = [
             "Mozilla Public License 2.0",
             "The Unlicense",
         ],
-        name: "license",
+        name: "li",
     }
 ];
 
