@@ -24,27 +24,37 @@ With this generator, you will be sure to always have a sharp looking README and 
 
 *This README was generated with my Pro README Generator*
 
-**[Watch the demo](https://youtu.be/h-yPOWgpN_w)**
-
 ![Project Screenshot](https://user-images.githubusercontent.com/107374664/188484514-3bf53e82-82cf-406e-922b-66233909bb93.png)
 
     
 ## Install
 
+
 To install this generator, you can run it out of VS Code, through the command line.  You will need to install a package.json and be sure to install the proper version of `Inquirer`. I wrote this program with version 8.2.0, so to be sure it functions properly, I recommend sticking to that version.  For the rest, you can copy paste my `index.js` into your working folder. I would copy paste my `.gitignore` file, too.  
 
 ## Usage
+
+Once you've cloned this repo or created your fork and pulled it down to your local machine:
+1. Run `npm install` in your command line. Make sure your terminal is open inside the root file of the project's folder.
+2. 
 
 Once you have your `package.json` and `Inquirer 8.2.0` installed via your npm command, you can type `node index.js` into your command line to run the program. Answer each question fully, but don't worry too much about perfection: you can always touch it up after the README is generated. 
 
 ## Contributing
 
-I have not made any guidelines at this time, so please just email me if you are interested in contributing.
+If you would like to contribute to this application, you may:
+1. Create a fork of the repository.
+2. Check the Issues tab in my repository to see if there is anything flagged to be completed or fixed.
+3. Work your coding magic.
+4. Push up your work when it works, and make a pull request. Please include a detailed note of what you added or changed and why.
+
+If it all looks good, you can expect gratitude and a happy merging.
+
 
 
 ## Support
 
-Issues with Node README Maker? Troubleshooting? Please reach out if you hit any snags, have questions, or come up with some helpful feedback.  
+Please reach out if you hit any snags, have questions, or come up with some helpful feedback.  
 
 <reed@meherdevs.com> 
 
