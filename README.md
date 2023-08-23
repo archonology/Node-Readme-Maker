@@ -17,11 +17,7 @@ Generate professional Markdown README's for your repositorys quickly. Spend more
 
 ## About
 
-An excellent README is essential for repository, but formatting a top-notch README can take away valuable time from coding new projects.  That's why I made this handy README generator: it allows you to put in all the info you need for a great README right from your command line. Then the program will generate a properly formatted README with all the essentials.  
-
-With this generator, you will be sure to always have a sharp looking README and save valuable time for writing more code. 
-
-*This README was generated with my Pro README Generator*
+An excellent README is essential for repository, but formatting a great README.md can take away valuable time from coding.  That's why I made Node README Maker: it allows you to put in all the info you need for a great README right from your command line. Then the program will generate a properly formatted README with all the essentials.  
 
 ![Project Screenshot](https://user-images.githubusercontent.com/107374664/188484514-3bf53e82-82cf-406e-922b-66233909bb93.png)
  
@@ -31,9 +27,11 @@ With this generator, you will be sure to always have a sharp looking README and 
 Once you've cloned this repo or created your fork and pulled it down to your local machine:
 1. Run `npm install` in your command line. Make sure your terminal is open inside the root file of the project's folder.
 2. Run `npm start` in your terminal.
+3. Modify the readMe template literal to contain your own info (this way you wont have to enter your own email, website, github handle, etc. every time you want to make a new readme).
 3. Answer the questions to complete the Inquirer prompt.
 4. Upon answering all the questions, you will see your answers logged in the command line.
 5. Check the `dist` folder in the project: that is where your new README.md has been printed.
+6. Fill in any blank info -- I find that a generator like this is faster for formatting, but it slows you down if you want to write longer paragraphs or create lists within sections. Also, linking photos in the command line can be cumbersome, so you will need to drop any screenshot locations in after the readme is generated, too.
 
 **Important:** make sure to copy your new README before creating another one in the terminal. The README.md will be overwritten each time a new Inquierer prompt is completed.
 
