@@ -93,10 +93,15 @@ This project is covered under **${licenseTitle}**.
       err
         ? console.log(err)
         : console.log(
-          `Success! Your README.md has been generated. 
-          Please retrieve it from the dist folder and thank you 
-          for using Node README Maker by Reed Meher, 2023 
-          https://www.meherdevs.com`
+          `
+          
+          Success! Your README.md has been generated. 
+          Please retrieve it from the dist folder.
+          Thank you for using Node README Maker 
+          by Reed Meher, 2023! 
+          https://www.meherdevs.com
+          
+          `
         )
     );
   });
